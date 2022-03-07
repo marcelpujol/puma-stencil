@@ -17,3 +17,7 @@ New components will be available coming soon:
 - Image Button
 - Speedometers
 - Loader
+
+
+------------------
+*Built with [StencilJS](https://stenciljs.com/)*
