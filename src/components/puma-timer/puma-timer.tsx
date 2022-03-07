@@ -1,4 +1,4 @@
-import { Component, Method, h, State, getAssetPath, Element } from '@stencil/core';
+import { Component, Method, h, State, getAssetPath } from '@stencil/core';
 import { TimerButtonType, TimerStatus } from './puma-timer-enums';
 
 @Component({
@@ -6,8 +6,7 @@ import { TimerButtonType, TimerStatus } from './puma-timer-enums';
   styleUrl: 'puma-timer.scss',
   assetsDirs: ['assets']
 })
-export class PumaTimer {
-  @Element() el: HTMLElement;  
+export class PumaTimer { 
   @State() private interval: any;
   @State() private time: number = 0;
   @State() private hours: number = 0;
