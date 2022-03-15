@@ -1,7 +1,7 @@
 {
   "name": "puma-stencil",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "puma-stencil is a set of Web components built using StencilJS",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -12,7 +12,7 @@
   "unpkg": "dist/puma-stencil/puma-stencil.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/marcelpujol/puma-stencil.git"
   },
   "files": [
     "dist/",
