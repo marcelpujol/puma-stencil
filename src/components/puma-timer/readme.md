@@ -1,16 +1,42 @@
 # puma-timer
-This component renders a timer that allows you to start, pause and restart the time that it's shown.
 
 
-## Properties
-This component doesn't have properties.
+
+<!-- Auto Generated Below -->
+
 
 ## Methods
-| Method | Description | Params |
-| ------ | ----------- | ------
-| `start` | Starts the timer from outside | None |
-| `pause` | Pauses the timer from outside | None |
-| `restart` | Restarts the timer from outside | None |
+
+### `pause() => Promise<void>`
+
+
+
+#### Returns
+
+Type: `Promise<void>`
+
+
+
+### `restart() => Promise<void>`
+
+
+
+#### Returns
+
+Type: `Promise<void>`
+
+
+
+### `start() => Promise<void>`
+
+
+
+#### Returns
+
+Type: `Promise<void>`
+
+
+
 
 ----------------------------------------------
 
